@@ -1,0 +1,235 @@
+*{
+	margin:0;
+	background-color:#120e0e;
+}
+html{
+	scroll-behavior:smooth; 
+}
+.header{
+	width:100%;
+	height:10vh;
+	display:flex;
+	justify-content:space-around;
+	flex-wrap:wrap;
+	background-color:;
+}
+.logo{
+	width:20vh;
+	height:10vh;
+	float:left;
+	margin-left:vh;
+	border-radius:70px;
+	
+}
+.header .text1{
+	float:left;
+	margin-left:22vh;
+	margin-top:4vh;
+	color:red;
+	font-size:2vh;
+	text-decoration:none;
+}
+.header .but{
+	float:right;
+	height:3vh;
+	width:10vh;
+	margin-right:10vh;
+	margin-top:4vh;
+	background-color:white;
+	font-size:100%;
+}
+.slider{
+	width:100%;
+	height:70vh;
+	background-color:gray;
+	animation:slider 20s  cubic-bezier(1,0,0,0) infinite;
+}
+@keyframes slider{
+	0%{
+	background:url("slide1.jpg") center no-repeat;
+	background-size:100%;
+	}
+	25%{
+	background:url("slide2.jpg") center no-repeat;
+	background-size:100%;
+	}
+	50%{
+	background:url("slide3.jpg") center no-repeat;
+	background-size:100%;		
+	}
+	75%{
+	background:url("slide4.jpg") center no-repeat;	
+	background-size:100%;
+	}
+	100%{
+	background:url("slide1.jpg") center no-repeat;
+	background-size:100%;	 
+	}
+}
+.text2{
+	text-align:center;
+	margin-top:10vh;
+	font-size:7vh;
+	color:white;
+}
+.mouse{
+	margin-top:7vh;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	flex-wrap:wrap;
+	
+}
+.mouse .mouse1{
+	width:20vh;
+	height:50vh;
+	background:url('mouse1.jpg') center no-repeat;
+	background-size:100%;
+	margin-top:vh;
+}
+.mouse .mouse2{
+	width:20vh;
+	height:55vh;
+	background:url('mouse2.jpg') center no-repeat;
+	background-size:100%;
+	margin-bottom:3vh;
+}
+.mouse .mouse3{
+	width:20vh;
+	height:50vh;
+	background:url('mouse3.jpg') center no-repeat;
+	background-size:100%;
+	margin-bottom:3vh;
+}
+.mouse .mouse4{
+	width:20vh;
+	height:50vh;
+	background:url('mouse4.jpg') center no-repeat;
+	background-size:100%;
+	margin-bottom:3vh;
+}
+.but{
+	text-decoration:none;
+	font-size:2vh;
+	text-align:center;
+	display:block;
+	width:100%;
+	height:5vh;
+	background-color:yellow;
+}
+.keyboard{
+	margin-top:7vh;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	flex-direction:column;
+	flex-wrap:wrap;
+}
+
+
+.keyboard .keyboard1{
+	width:70vh;
+	height:40vh;
+	background:url('keyboard1.jpg') center no-repeat;
+	background-size:100%;
+}
+.keyboard .keyboard2{
+	width:70vh;
+	height:40vh;
+	background:url('keyboard2.jpg') center no-repeat;
+	background-size:100%;
+}
+.keyboard .keyboard3{
+	width:70vh;
+	height:40vh;
+	background:url('keyboard3.jpg') center no-repeat;
+	background-size:100%;
+}.keyboard .keyboard4{
+	width:70vh;
+	height:40vh;
+	background:url('keyboard4.jpg') center no-repeat;
+	background-size:100%;
+}
+
+.headphones{
+	margin-top:7vh;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	flex-direction:column;
+	flex-wrap:wrap;
+}
+
+.headphones .headphones1{
+	width:50vh;
+	height:55vh;
+	background:url('headphones1.jpg') center no-repeat;
+	background-size:100%
+}
+.headphones .headphones2{
+	width:50vh;
+	height:55vh;
+	background:url('headphones2.jpg') center no-repeat;
+	background-size:100%
+}
+.headphones .headphones3{
+	width:50vh;
+	height:55vh;
+	background:url('headphones3.jpg') center no-repeat;
+	background-size:100%
+}.headphones .headphones4{
+	width:50vh;
+	height:55vh;
+	background:url('headphones4.jpg') center no-repeat;
+	background-size:100%
+}
+
+.flexer{
+	margin-top:3vh;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	flex-wrap:wrap;
+}
+.flexer .csgo{
+	width:40vh;
+	height:40vh;
+	background:url('csgo.png') center no-repeat;
+}
+.flexer .dota{
+	width:40vh;
+	height:40vh;
+	background:url('dota.png') center no-repeat;
+}
+.text3{
+	text-align:center;
+	margin-top:10vh;
+	font-size:4vh;
+	color:#d64949ad;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
